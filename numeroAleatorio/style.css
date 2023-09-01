@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Gloria+Hallelujah&family=Tektur:wght@500&display=swap');
+
+:root{
+    --font-family: 'Comfortaa', cursive,'Gloria Hallelujah', cursive,'Tektur', cursive;
+    --bgColor:#03001C;
+    --primaryColor:#301E67;
+    --fontColor:#EEEDED;
+}
+
+body{
+    background-color:var(--bgColor);
+    color:var(--fontColor) ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 4em;
+}
+h3{
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+.box{
+    border: 2px solid white;
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+.btnJogar{
+    padding:8px 15px;
+    border: none;
+    background-color: #301E67;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    font-family: var(--font-family);
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.btnJogar:hover{
+    border: 1px solid white;
+    transform: scale(1.1);
+}
